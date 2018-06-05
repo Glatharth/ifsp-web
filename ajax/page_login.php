@@ -15,7 +15,7 @@ if (isset($_POST['username']) AND isset($_POST['password'])) {
 
     if ($user != "" AND $pass != "") {
 
-        $res = $usuarioDAO->fazerLogin($user, $pass);        
+        $res = $usuarioDAO->fazerLogin($user, $pass);
         if ($res != null) {
             $_SESSION['nivel'] = $res->nivel;
             $_SESSION['username'] = $res->username;
