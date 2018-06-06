@@ -511,7 +511,7 @@
 							</select>
 						</div>
 						</div>
-						<div class="btn btn-primary btn-app"><i class="fa fa-trash-o"></i></div>
+						<div class="btn btn-primary btn-app"><a href="page_register.php?id=<?php echo("");?>&op=><i class="fa fa-trash-o"></i></div>
 					</div>
 				</div>
 		</div>
